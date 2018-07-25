@@ -12,3 +12,8 @@ For convience, we have updated our used images to [OneDriver](https://1drv.ms/u/
 - Change the "source" and "root_folder" to the path in your computer.
 - run "sh run_mixture.sh" to pretrain the model
 - run "sh run_LTNet.sh" to train LTNet.
+
+# Test
+- Change the caffe_root to the path in your computer in EmotEngine.py and eval_cifar10.py
+- Change Line 78,79 of eval_cifar10.py to the path in your computer
+- run "eval_cifar10.py -w path-to-model"
