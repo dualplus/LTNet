@@ -16,4 +16,4 @@ For convience, we have updated our used images to [OneDriver](https://1drv.ms/u/
 # Test
 - Change the caffe_root to the path in your computer in EmotEngine.py and eval_cifar10.py
 - Change Line 78,79 of eval_cifar10.py to the path in your computer
-- run "eval_cifar10.py -w path-to-model"
+- run "python eval_cifar10.py -w path-to-model"
