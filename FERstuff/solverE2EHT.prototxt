@@ -1,0 +1,27 @@
+train_net:"resnet_train_HidGT.prototxt"
+#test_net: "resnet_test.prototxt"
+#test_state:{stage: "TEST CK"}
+#test_iter: 50
+#test_interval: 1000
+base_lr: 0.00001
+lr_policy: "poly"
+#lr_policy: "poly_multistep"
+#stepvalue: 120000
+#stepvalue: 180000
+#stepvalue: 240000
+#stepvalue: 320000
+gamma: 0.1
+power: 0.5
+display: 10
+max_iter: 300000
+momentum: 0.9
+iter_size:4
+weight_decay: 0.0005
+average_loss:50
+snapshot: 5000
+snapshot_prefix: "snapshot/train_HidGT_noU"
+#train_logging_loss: true
+#test_logging_loss: true
+#train_logging_dataflow: false
+#train_logging_netparam: false
+solver_mode: GPU
