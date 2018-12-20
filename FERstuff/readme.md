@@ -1,3 +1,5 @@
+0. The files in FERstuff is for reference if anyone want to use LTNet in FER task.
+
 1. resnet_train_HidGT.prototxt: The training prototxt that I used in the facial expression recognition.
  Note that the main body of the net is pretrained by a conventional FER task on the unition of RAF and AffectNet.
 
